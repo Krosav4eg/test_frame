@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="My test" parallel="methods" thread-count="2">
+
+    <test name="Parallel runner">
+        <classes>
+            <class name="selenium.test.TestRunner">
+            </class>
+        </classes>
+    </test>
+</suite>
