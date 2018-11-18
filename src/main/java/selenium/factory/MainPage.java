@@ -40,13 +40,13 @@ public class MainPage extends BasePage {
 //        List<WebElement> radioButtons = driver.findElements(By.cssSelector("td.table8>input[type='radio']"));
 //        return radioButtons.get(2).isSelected();
         List<WebElement> radioButtons = driver.findElements(By.cssSelector("td.table5>input[type='radio']"));
-//        for (int i = 0; i < radioButtons.size(); i++) {
-//            String radioButtonValue = radioButtons.get(i).getAttribute("value");
-//            if (radioButtonValue.equalsIgnoreCase("butter")) {
-//                radioButtons.get(1).isSelected();
-//            }
-//
-//        }
+        for (int i = 0; i < radioButtons.size(); i++) {
+            String radioButtonValue = radioButtons.get(i).getAttribute("value");
+            if (radioButtonValue.equalsIgnoreCase("butter")) {
+                radioButtons.get(1).isSelected();
+            }
+
+        }
        return true;
     }
 }
