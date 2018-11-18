@@ -437,23 +437,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestRunner" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Potapium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="selenium.factory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="selenium" />
-      <option name="MAIN_CLASS_NAME" value="selenium.test.TestRunner" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestRunner.verifyCopyWritingTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Potapium" />
       <option name="PACKAGE_NAME" value="" />
@@ -476,7 +459,6 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="TestNG.TestRunner" />
       <item itemvalue="TestNG.TestRunner.verifyCopyWritingTest" />
       <item itemvalue="TestNG.C:/Users/Krosav4eg/IdeaProjects/Potapium/src/main/java/selenium/test/testRunner.xml" />
       <item itemvalue="Application.TestExample" />
@@ -485,11 +467,11 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TestRunner.verifyCopyWritingTest" />
         <item itemvalue="Application.RadioButton" />
         <item itemvalue="Application.Selenium2" />
         <item itemvalue="Application.TestExample" />
         <item itemvalue="TestNG.C:/Users/Krosav4eg/IdeaProjects/Potapium/src/main/java/selenium/test/testRunner.xml" />
+        <item itemvalue="TestNG.TestRunner.verifyCopyWritingTest" />
       </list>
     </recent_temporary>
   </component>
